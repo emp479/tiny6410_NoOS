@@ -1,0 +1,16 @@
+mainmenu "kbuild Test Configuration"
+
+menu TEST_KBUILD
+  config ARM
+  tristate "enable gcc arm"
+  config x86
+  bool "enable gcc x86"
+  config MYPRINT
+  bool "enable myprint.c"
+  config MYTEST
+  bool "enable test"
+  config MYLED
+  bool "enable led"
+help
+  this is test
+endmenu
