@@ -24,5 +24,9 @@ void main(){
 #ifdef CONFIG_MYLED
   mytest();
 #endif
+
+#ifdef CONFIG_PRINTF
+  printf("kkkkkkkk");
+#endif
 }
 
